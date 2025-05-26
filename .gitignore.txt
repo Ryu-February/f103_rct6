@@ -1,11 +1,11 @@
 # 개발 환경 설정 파일 무시
-.cproject
-.project
-.settings/
-*.launch
+**/.cproject
+**/.project
+**/.settings/
+**/*.launch
 
 # 빌드 아웃풋 무시
-Debug/
+**/Debug/
 Release/
 *.o
 *.elf

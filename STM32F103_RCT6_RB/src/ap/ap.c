@@ -46,9 +46,9 @@ void ap_main(void)
 	{
 
 		HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_9);
-		delay_ms(500);
+		delay_ms(1000);
 
-//		HAL_GPIO_WritePin(GPIOB, GPIO_PIN_9, GPIO_PIN_RESET);
+//		HAL_GPIO_WritePin(GPIOB, GPIO_PIN_9, GPIO_PIN_SET);
 
 	}
 }
